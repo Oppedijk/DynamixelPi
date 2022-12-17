@@ -37,7 +37,7 @@ Edit /etc/inittab and comment out any lines mentioning ttyAMA0, especially the g
 
 Reboot
 
-(thanks to: http://fw.hardijzer.nl/?p=167)
+(thanks to: https://fw.hardijzer.nl/?p=167)
 
 # Programming
 This is an example Python program, no wrapper for the AX12 exists? The values are hardcoded to move Dynamixel 1, Execute an action (5), send 3 bytes of data, MOVE command(1E) and 2 positions(32 03) followed by the CRC (A3). I needed a small sleep(0.1), the port.write takes more time and the output was already LOW.
